@@ -56,8 +56,11 @@ const Index = () => {
       <section className="py-12 bg-primary text-white">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl">
-            <h1 className="text-4xl font-bold mb-4">Товарищество собственников "Дом"</h1>
+            <h1 className="text-4xl font-bold mb-4">ТС дома по адресу Нарочанская 4</h1>
             <p className="text-xl opacity-90">Информационный портал для жильцов нашего дома. Здесь вы найдете последние новости, документы и полезную информацию.</p>
+            <div className="bg-orange-100 border-l-4 border-orange-500 text-orange-700 p-4" role="alert">
+              <p>Сайт в активной разработке и может сожержать ошибки и не актуальные сведения, имейте это ввиду.</p>
+            </div>
           </div>
         </div>
       </section>
