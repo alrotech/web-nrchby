@@ -11,11 +11,11 @@ const Navigation = () => {
 
   const navItems = [
     { path: '/', label: 'Главная' },
-    { path: '/about', label: 'О товариществе' },
+    { path: '/about', label: 'Товарищество' },
     { path: '/finances', label: 'Финансы' },
     { path: '/documents', label: 'Документы' },
     { path: '/residents', label: 'Жильцам' },
-    { path: '/renovation', label: 'Ремонт и перепланировка' },
+    { path: '/renovation', label: 'Ремонт' },
     { path: '/communication', label: 'Общение' },
     { path: '/contacts', label: 'Контакты' },
   ];
@@ -26,7 +26,7 @@ const Navigation = () => {
         <div className="flex justify-between items-center h-16">
           <div className="flex items-center">
             <Link to="/" className="flex-shrink-0 flex items-center">
-              <img src="https://nrch.by/logo-color.svg" alt="Логотип" className="h-8 w-auto mr-2" />
+              <img src="/logo-color.svg" alt="Логотип" className="h-8 w-auto mr-2" />
               <h1 className="text-2xl font-bold text-primary">Нарочанская 4</h1>
             </Link>
           </div>

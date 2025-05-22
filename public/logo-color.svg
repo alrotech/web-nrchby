@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 1280">
+    <defs>
+        <style>
+            * { stroke: black; }
+
+            .fill-blue { fill: #70b6d4; }
+
+            .basement { stroke-width: 15px; }
+            .section { fill: white; stroke-width: 15px; }
+
+            .cross-line { stroke-width: 15px; }
+            .block { stroke-width: 10px; }
+
+            .window-line { fill: none; stroke-width: 8px; }
+            .window-vertical { fill: none; stroke-width: 20px; }
+
+            .thing { fill: white; stroke-width: 15px; }
+        </style>
+    </defs>
+
+    <!--    basic sections-->
+    <rect class="section" x="310" y="200" width="250" height="715"/>
+    <rect class="section" x="560" y="300" width="450" height="615"/>
+
+    <!--    top lines near the roof-->
+    <rect class="cross-line fill-blue" x="310" y="200" width="250" height="45"/>
+    <rect class="cross-line fill-blue" x="560" y="300" width="450" height="45"/>
+
+    <!--    line through the house-->
+    <rect class="cross-line fill-blue" x="310" y="440" width="700" height="35"/>
+
+    <!--    section 2 - vertical pane 1-->
+    <rect class="block fill-blue" x="616.25" y="527.5" width="75" height="330"/>
+    <rect class="block fill-blue" x="747.50" y="527.5" width="75" height="330"/>
+    <rect class="block fill-blue" x="878.75" y="527.5" width="75" height="330"/>
+
+    <!--    section 2 - VP 1 - windows -->
+    <rect class="window-line" x="641.25" y="564.25" width="25" height="1"/>
+    <rect class="window-line" x="641.25" y="606.50" width="25" height="1"/>
+    <rect class="window-line" x="641.25" y="648.75" width="25" height="1"/>
+    <rect class="window-line" x="641.25" y="691.00" width="25" height="1"/>
+    <rect class="window-line" x="641.25" y="733.25" width="25" height="1"/>
+    <rect class="window-line" x="641.25" y="775.50" width="25" height="1"/>
+    <rect class="window-line" x="641.25" y="817.75" width="25" height="1"/>
+
+    <!--    section 2 - VP 2 - windows -->
+    <rect class="window-line" x="773.00" y="564.25" width="25" height="1"/>
+    <rect class="window-line" x="773.00" y="606.50" width="25" height="1"/>
+    <rect class="window-line" x="773.00" y="648.75" width="25" height="1"/>
+    <rect class="window-line" x="773.00" y="691.00" width="25" height="1"/>
+    <rect class="window-line" x="773.00" y="733.25" width="25" height="1"/>
+    <rect class="window-line" x="773.00" y="775.50" width="25" height="1"/>
+    <rect class="window-line" x="773.00" y="817.75" width="25" height="1"/>
+
+    <!--    section 2 - VP 3 - windows -->
+    <rect class="window-line" x="904.25" y="564.25" width="25" height="1"/>
+    <rect class="window-line" x="904.25" y="606.50" width="25" height="1"/>
+    <rect class="window-line" x="904.25" y="648.75" width="25" height="1"/>
+    <rect class="window-line" x="904.25" y="691.00" width="25" height="1"/>
+    <rect class="window-line" x="904.25" y="733.25" width="25" height="1"/>
+    <rect class="window-line" x="904.25" y="775.50" width="25" height="1"/>
+    <rect class="window-line" x="904.25" y="817.75" width="25" height="1"/>
+
+    <!--    big blue windows-->
+    <rect class="block fill-blue" x="377.50" y="277" width="115" height="50"/>
+    <rect class="block fill-blue" x="377.50" y="358" width="115" height="50"/>
+
+    <rect class="block fill-blue" x="377.50" y="510" width="115" height="50"/>
+    <rect class="block fill-blue" x="377.50" y="590" width="115" height="50"/>
+    <rect class="block fill-blue" x="377.50" y="670" width="115" height="50"/>
+    <rect class="block fill-blue" x="377.50" y="750" width="115" height="50"/>
+    <rect class="block fill-blue" x="377.50" y="830" width="115" height="50"/>
+
+    <!--    vertical windows-->
+    <rect class="window-vertical" x="650" y="375" width="1" height="35"/>
+    <rect class="window-vertical" x="785" y="375" width="1" height="35"/>
+    <rect class="window-vertical" x="920" y="375" width="1" height="35"/>
+
+    <!--    top thing on roof-->
+    <rect class="thing" x="480" y="170" width="50" height="30"/>
+
+    <!--    basement-->
+    <rect class="basement fill-blue" x="240" y="915" width="850" height="60"/>
+</svg>
