@@ -8,16 +8,16 @@ const Footer = () => (
     <div className="container mx-auto px-4">
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
         <div>
-          <h3 className="text-lg font-semibold mb-4">ТС "Дом"</h3>
+          <h3 className="text-lg font-semibold mb-4">Нарочанская 4</h3>
           <p className="text-gray-300">
-            Товарищество собственников "Дом"<br />
+            Товарищество собственников "Нарочанская 4"<br />
             Управление и обслуживание жилого комплекса
           </p>
         </div>
         
         <div>
           <h3 className="text-lg font-semibold mb-4">Контакты</h3>
-          <p className="text-gray-300">ул. Примерная, 123</p>
+          <p className="text-gray-300">ул. Нарочанская, 4</p>
           <p className="text-gray-300">info@example.com</p>
           <p className="text-gray-300">+123 456 7890</p>
         </div>
@@ -33,7 +33,7 @@ const Footer = () => (
       </div>
       
       <div className="border-t border-gray-700 mt-8 pt-6 text-center text-gray-400 text-sm">
-        <p>© {new Date().getFullYear()} Товарищество собственников "Дом". Все права защищены.</p>
+        <p>© {new Date().getFullYear()} Товарищество собственников "Нарочанская 4". Все права защищены.</p>
       </div>
     </div>
   </footer>

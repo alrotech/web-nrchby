@@ -25,8 +25,9 @@ const Navigation = () => {
       <div className="container mx-auto px-4">
         <div className="flex justify-between items-center h-16">
           <div className="flex items-center">
-            <Link to="/" className="flex-shrink-0">
-              <h1 className="text-2xl font-bold text-green-600">ТС "Дом"</h1>
+            <Link to="/" className="flex-shrink-0 flex items-center">
+              <img src="https://nrch.by/logo-color.svg" alt="Логотип" className="h-8 w-auto mr-2" />
+              <h1 className="text-2xl font-bold text-green-600">Нарочанская 4</h1>
             </Link>
           </div>
           
