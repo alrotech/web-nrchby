@@ -10,14 +10,14 @@ const Navigation = () => {
   const toggleMenu = () => setIsMenuOpen(!isMenuOpen);
 
   const navItems = [
-    { path: '/', label: '🏠 Главная' },
-    { path: '/about', label: '🧱 О товариществе' },
-    { path: '/finances', label: '📊 Финансы' },
-    { path: '/documents', label: '📁 Документы' },
-    { path: '/residents', label: '🏡 Жильцам' },
-    { path: '/renovation', label: '🛠️ Ремонт и перепланировка' },
-    { path: '/communication', label: '💬 Общение' },
-    { path: '/contacts', label: '📞 Контакты' },
+    { path: '/', label: 'Главная' },
+    { path: '/about', label: 'О товариществе' },
+    { path: '/finances', label: 'Финансы' },
+    { path: '/documents', label: 'Документы' },
+    { path: '/residents', label: 'Жильцам' },
+    { path: '/renovation', label: 'Ремонт и перепланировка' },
+    { path: '/communication', label: 'Общение' },
+    { path: '/contacts', label: 'Контакты' },
   ];
 
   return (
@@ -27,7 +27,7 @@ const Navigation = () => {
           <div className="flex items-center">
             <Link to="/" className="flex-shrink-0 flex items-center">
               <img src="https://nrch.by/logo-color.svg" alt="Логотип" className="h-8 w-auto mr-2" />
-              <h1 className="text-2xl font-bold text-green-600">Нарочанская 4</h1>
+              <h1 className="text-2xl font-bold text-primary">Нарочанская 4</h1>
             </Link>
           </div>
           
@@ -38,9 +38,9 @@ const Navigation = () => {
                 <Link
                   key={item.path}
                   to={item.path}
-                  className={`px-3 py-2 rounded-md text-sm font-medium hover:bg-green-50 hover:text-green-700 transition-colors ${
+                  className={`px-3 py-2 rounded-md text-sm font-medium hover:bg-primary/10 hover:text-primary transition-colors ${
                     location.pathname === item.path
-                      ? 'text-green-700 bg-green-50'
+                      ? 'text-primary bg-primary/10'
                       : 'text-gray-700'
                   }`}
                 >
@@ -55,7 +55,7 @@ const Navigation = () => {
             <button 
               onClick={toggleMenu}
               type="button"
-              className="inline-flex items-center justify-center p-2 rounded-md text-gray-700 hover:text-green-600 hover:bg-green-50 focus:outline-none"
+              className="inline-flex items-center justify-center p-2 rounded-md text-gray-700 hover:text-primary hover:bg-primary/10 focus:outline-none"
               aria-controls="mobile-menu"
               aria-expanded="false"
             >
@@ -78,8 +78,8 @@ const Navigation = () => {
               to={item.path}
               className={`block px-3 py-2 rounded-md text-base font-medium ${
                 location.pathname === item.path
-                  ? 'bg-green-50 text-green-700'
-                  : 'text-gray-700 hover:bg-green-50 hover:text-green-700'
+                  ? 'bg-primary/10 text-primary'
+                  : 'text-gray-700 hover:bg-primary/10 hover:text-primary'
               }`}
               onClick={() => setIsMenuOpen(false)}
             >
