@@ -19,15 +19,15 @@ const Footer = () => (
           <h3 className="text-lg font-semibold mb-4">Контакты</h3>
           <p className="text-gray-300">ул. Нарочанская, 4</p>
           <p className="text-gray-300">info@example.com</p>
-          <p className="text-gray-300">+123 456 7890</p>
+          <p className="text-gray-300">+375 29 681 15 21</p>
         </div>
         
         <div>
           <h3 className="text-lg font-semibold mb-4">Часы работы</h3>
           <p className="text-gray-300">
-            Пн-Пт: 9:00 - 18:00<br />
-            Сб: 10:00 - 14:00<br />
-            Вс: Выходной
+            Пн-Пт: 9:00 - 17:30<br />
+            Приемные часы: Среда 17:00 - 20:00<br />
+            Сб-Вс: Выходной
           </p>
         </div>
       </div>

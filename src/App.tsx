@@ -8,6 +8,7 @@ import Layout from "./components/Layout";
 import Index from "./pages/Index";
 import About from "./pages/About";
 import Documents from "./pages/Documents";
+import Contacts from "./pages/Contacts";
 import NotFound from "./pages/NotFound";
 
 // Placeholder components for routes that will be built later
@@ -15,7 +16,6 @@ const Finances = () => (<div className="container mx-auto px-4 py-12"><h1 classN
 const Residents = () => (<div className="container mx-auto px-4 py-12"><h1 className="text-3xl font-bold">Жильцам</h1><p className="mt-4">Страница в разработке</p></div>);
 const Renovation = () => (<div className="container mx-auto px-4 py-12"><h1 className="text-3xl font-bold">Ремонт и перепланировка</h1><p className="mt-4">Страница в разработке</p></div>);
 const Communication = () => (<div className="container mx-auto px-4 py-12"><h1 className="text-3xl font-bold">Общение</h1><p className="mt-4">Страница в разработке</p></div>);
-const Contacts = () => (<div className="container mx-auto px-4 py-12"><h1 className="text-3xl font-bold">Контакты</h1><p className="mt-4">Страница в разработке</p></div>);
 
 const queryClient = new QueryClient();
 
